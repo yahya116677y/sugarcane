@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dispenser_cane",
+  "version": "${version}",
+  "name": "Dispenser Cane",
+  "description": "Dispensers can use bone meal to grow sugar cane.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.dispensercane.DispenserCane"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
